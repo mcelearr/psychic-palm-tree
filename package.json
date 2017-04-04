@@ -1,0 +1,32 @@
+{
+  "name": "psychic-palm-tree",
+  "version": "1.0.0",
+  "description": "Basic ES6 hapi server serving static files",
+  "main": "app.js",
+  "dependencies": {
+    "eslint": "^3.19.0",
+    "hapi": "^16.1.1",
+    "inert": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-plugin-import": "^2.2.0",
+    "husky": "^0.13.3"
+  },
+  "scripts": {
+    "precommit": "npm run lint",
+    "prepush": "npm run lint",
+    "lint": "./node_modules/.bin/eslint **.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcelearr/psychic-palm-tree.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcelearr/psychic-palm-tree/issues"
+  },
+  "homepage": "https://github.com/mcelearr/psychic-palm-tree#readme"
+}
