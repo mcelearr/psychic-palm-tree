@@ -4,7 +4,6 @@
   "description": "Basic ES6 hapi server serving static files",
   "main": "app.js",
   "dependencies": {
-    "eslint": "^3.19.0",
     "hapi": "^16.1.1",
     "inert": "^4.2.0"
   },
@@ -15,9 +14,9 @@
     "husky": "^0.13.3"
   },
   "scripts": {
-    "precommit": "npm run lint",
     "prepush": "npm run lint",
-    "lint": "./node_modules/.bin/eslint **.js"
+    "lint": "./node_modules/.bin/eslint **.js",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
