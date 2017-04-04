@@ -8,6 +8,8 @@ server.connection({
   port: 3000
 });
 
+var hello = 'hello';
+
 server.route({
   method: 'GET',
   path: '/hello',
