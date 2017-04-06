@@ -1,4 +1,4 @@
-## Quickstart
+## Quickstart
 
 ```bash
 git clone https://github.com/mcelearr/psychic-palm-tree.git && cd psychic-palm-tree
