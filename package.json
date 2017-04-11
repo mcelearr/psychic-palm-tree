@@ -16,9 +16,9 @@
   },
   "scripts": {
     "prepush": "npm run lint",
-    "lint": "./node_modules/.bin/eslint **.js",
-    "dev": "./node_modules/.bin/nodemon app.js",
-    "start": "node app.js"
+    "lint": "./node_modules/.bin/eslint './+(src)/**/*.js'",
+    "dev": "./node_modules/.bin/nodemon src/app.js",
+    "start": "node src/app.js"
   },
   "repository": {
     "type": "git",

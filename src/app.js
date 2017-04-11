@@ -1,5 +1,5 @@
 const hapi = require('hapi');
-const inert = require('inert');
+var inert = require('inert');
 
 const server = new hapi.Server();
 
